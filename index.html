@@ -9,13 +9,22 @@
 </head>
 
 <body>
-    <div id="todo-form">
-        <input type="text" id="theInput">
-        <button id="newButton">Create</button>
-    </div>
-    <div id="todo-list">
-        <ul></ul>
-    </div>
+    <form id="todo">
+        <ul id="list">
+            <li>
+                <input type="text" name="title">
+            </li>
+            <li>
+                <input type="text" name="description">
+            </li>
+            <li>
+                <input type="number" name="price">
+            </li>
+            <li>
+                <input type="text" name="imgUrl">
+            </li>
+        </ul>
+    </form>
     <script src="todo.js"></script>
 </body>
 
