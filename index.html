@@ -9,22 +9,25 @@
 </head>
 
 <body>
-    <form id="todo">
+    <form name="myForm">
         <ul id="list">
             <li>
-                <input type="text" name="title">
+                <input type="text" name="title" placeholder="Title">
             </li>
             <li>
-                <input type="text" name="description">
+                <input type="text" name="description" placeholder="Description">
             </li>
             <li>
-                <input type="number" name="price">
+                <input type="number" name="price" placeholder="Price">
             </li>
             <li>
-                <input type="text" name="imgUrl">
+                <input type="text" name="imgUrl" placeholder="Image Url">
             </li>
         </ul>
+        <Button>Submit</Button>
     </form>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
     <script src="todo.js"></script>
 </body>
 
