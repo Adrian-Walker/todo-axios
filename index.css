@@ -1,0 +1,19 @@
+#newForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+input {
+    margin: 20px;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+}
