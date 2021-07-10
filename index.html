@@ -10,25 +10,24 @@
 </head>
 
 <body>
+    <h1>My Objectives</h1>
     <form name="myForm" id="newForm">
-        <ul id="unOrdered">
-            <li>
-                <input type="text" name="title" placeholder="Title" id="title">
-            </li>
-            <li>
-                <input type="text" name="description" placeholder="Description">
-            </li>
-            <li>
-                <input type="number" name="price" placeholder="Price">
-            </li>
-            <li>
-                <input type="text" name="imgUrl" placeholder="Image Url">
-            </li>
-        </ul>
-        <Button name="submits">Submit</Button>
-        <button name="add">Add</button>
-        <button>Delete</button>
+
+        <input type="text" name="title" placeholder="Title" id="title">
+
+        <input type="text" name="description" placeholder="Description">
+
+        <input type="number" name="price" placeholder="Price">
+
+        <input type="text" name="imgUrl" placeholder="Image Url">
+
+
+        <Button name="submits" class="submitButton">Submit</Button>
     </form>
+
+    <!-- <button name="add">Add</button> -->
+    <!-- <button>Delete</button> -->
+    <div id="toDoList"></div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
     <script src="todo.js"></script>
